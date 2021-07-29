@@ -1,0 +1,60 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(9, 9, 9, 0.85);
+    color: rgb(212, 212, 212);
+}
+
+.main {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+}
+
+.main .message {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main .try-class {
+    font-size: 21px;
+}
+
+.main a {
+    color: inherit;
+}
+
+.main ul {
+    line-height: 25px;
+}
+
+.main .error-code {
+    color: rgb(144, 142, 142);
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+.main p button {
+    background: none;
+    color: inherit;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 5px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.main img {
+    size: 30px;
+}
